@@ -1,0 +1,6 @@
+https://github.com/yoyoketang/requests_python_excel    
+https://blog.csdn.net/rhx_qiuzhi/article/details/80304864  上边的框架介绍
+
+
+
+纯粹使用excel来管理测试数据，可扩展

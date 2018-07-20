@@ -1,0 +1,23 @@
+此框架暂时没有使用excel来管理数据（视情况而定，需要再次优化）
+1、common文件夹
+	conf文件夹
+		config.ini 文件中存放登录信息 数据库信息 邮件信息等
+		readconfig.py  读取ini文件中的内容，供其他模块使用
+	database.py   连接数据库信息  添加了增删改查的方法
+	logger.py   在执行用例过程中打印日志
+2、interface文件夹
+	存放各个模块的接口
+3、logs文件夹
+	存放执行用例后打印的日志信息
+4、readexcel文件夹
+	为方便日后需要使用excel管理数据做的部分扩展（缺少写入操作）
+5、report文件夹
+	存放执行用例后产生的report文件
+6、testCase文件夹
+	采用unittest框架来编写组合执行的用例
+7、testFile文件夹
+	存放请求接口时需要用到的文件夹等
+8、writeexcel.py 写入数据库（待处理）
+9、run_all_case.py 将testCase文件夹中的用例综合起来统一执行，产生报告、发送邮件等
+
+	
